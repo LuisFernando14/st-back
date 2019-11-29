@@ -1,0 +1,45 @@
+{
+  "name": "Employee",
+  "plural": "employees",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Clave_Emp": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "ApPaterno": {
+      "type": "string",
+      "required": true
+    },
+    "ApMaterno": {
+      "type": "string",
+      "required": true
+    },
+    "FecNac": {
+      "type": "string",
+      "required": true
+    },
+    "Departamento": {
+      "type": "number",
+      "required": true
+    },
+    "Sueldo": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}

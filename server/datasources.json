@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mssql": {
+    "host": "localhost",
+    "port": 1433,
+    "url": "mssql://SA:W31c0m3*@localhost/examen",
+    "database": "examen",
+    "password": "W31c0m3*",
+    "name": "mssql",
+    "user": "SA",
+    "connector": "mssql"
+  }
+}
