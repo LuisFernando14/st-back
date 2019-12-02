@@ -10,7 +10,8 @@
     "Clave_Emp": {
       "type": "number",
       "id": true,
-      "required": true
+      "required": false,
+      "generated": true
     },
     "Nombre": {
       "type": "string",
@@ -39,6 +40,14 @@
   },
   "validations": [],
   "relations": {
+    "department": {
+      "type": "belongsTo",
+      "model": "Department",
+      "foreignKey": "Departamento",
+      "options": {
+        "nestRemoting": true
+      }
+    }
   },
   "acls": [],
   "methods": {}
